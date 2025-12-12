@@ -1,4 +1,4 @@
-# set-prompt
+# Set IDEA AIAssistant Commit Prompt
 
 Small CLI that updates the JetBrains AIAssistant stored prompt for the
 `AIAssistant.VCS.GenerateCommitMessage` action inside `.idea/workspace.xml`
