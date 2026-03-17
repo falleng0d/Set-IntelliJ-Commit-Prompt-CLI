@@ -13,6 +13,12 @@ to the prompt you provide.
   - `uv run set-prompt --prompt "Your new prompt" --root ./projets`
   - You can omit `--root` to search from the current directory.
 
+## Example
+
+```bash
+set-prompt --prompt "Avoid overly verbose descriptions or unnecessary details. Do not use markdown. Don't add dot (.) at the end of the commit message. Use conventional-commit format"
+```
+
 ## Install as a CLI
 
 Option 1: run in-place (no install)
