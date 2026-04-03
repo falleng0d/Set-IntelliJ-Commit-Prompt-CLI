@@ -18,6 +18,9 @@ def find_workspace_files(root: str) -> list[str]:
         if os.path.basename(dirpath) == ".idea" and "workspace.xml" in filenames:
             matches.append(os.path.join(dirpath, "workspace.xml"))
             dirnames[:] = []
+        elif "project.default.xml" in filenames:
+            matches.append(os.path.join(dirpath, "project.default.xml"))
+            dirnames[:] = []
     return matches
 
 
